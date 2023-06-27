@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+input{
+    display: none;
+}
+.container{
+    width: 100%;
+    text-align: center;
+}
+
+h1{
+    font-weight: bold;
+    font-size: 25px;
+    position: relative;
+    margin: 20px 0;
+    margin-top: 40px;
+    /* background-color: black; */
+    color: rgb(0, 0, 0);
+}
+.top-content{
+    background-color: rgb(255, 255, 255);
+    width: 90;
+    margin: 0 auto 20 auto;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+   box-shadow: 3px 3px 5px lightgray;
+}
+h3{
+    height: 100%;
+    background-color: rgb(55, 0, 255);
+    line-height: 60px;
+    padding: 0 50px;
+    color: white;
+}
+.photo-gallery img{
+    width: 300px;
+    height: 400px;
+    border-radius: 20px;
+    transition: 1s;
+
+}
+
+.photo-gallery img:hover{
+    width: 300px;
+    height: 400px;
+    border-radius: 20px;
+    transform: scale(1.3);
+    z-index: 2;
+
+}
+
+
+.photo-gallery{
+    display: flex;
+    gap: 30px;
+    justify-content:center;
+    margin-top: 50px;
+  
+}
+h4{
+    color: rgb(143, 143, 143);
+    font: medium;
+    font-size: 12px;
+
+
+}
+.btn{
+    background-color: blue;
+    padding: 10px 35px;
+    border: none;
+    color: white;
+    font-size: 15px;
+    border-radius: 7px;
+    cursor: pointer;
+    margin-top: 7px;
+}
+.btn:hover{
+    background-color: rgb(0, 0, 0);
+    padding: 10px 35px;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    border-radius: 7px;
+    margin-top: 7px;
+}
+
+
+
+
+.border{
+    border-color: rgb(175, 175, 175);
+    border: solid 1px;
+    border-radius: 20px;
+    padding: 2px;
+    color: rgb(83, 83, 83);
+    text-align: center;
+    
+    /* background-color: rgb(247, 247, 247); */
+}
+
+.border:hover {
+    border-color: rgb(255, 0, 0);
+    border: solid 1px;
+    border-radius: 20px;
+    padding: 2px;
+    color: rgb(83, 83, 83);
+    text-align: center;
+  }
+
+/* .photo-gallery :hover{
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 20px;
+    color: white;
+} */
+
